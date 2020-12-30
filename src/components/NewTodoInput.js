@@ -14,6 +14,7 @@ const NewTodoInput = () => {
 				id: Math.ceil(Math.random() * 100),
 			}
 		});
+		setNewTodo('');
 	}
 	return (
 		<div>
